@@ -1,0 +1,38 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  color: red;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-image: url("https://cdn.glitch.global/f264bf06-b8cf-4eba-aa5c-7219d1b178d0/its%20joever..png?v=1742064025592");
+}
+.button{
+display:inline-block;
+background:none;
+width: 50px;
+height: 20px;
+}
+.button.okay{
+background:url('images/ok.png');
+}
+.color {
+  background: green;
+}
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
